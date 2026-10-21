@@ -65,7 +65,7 @@ torchrun --nproc_per_node=8 --master_port 19003 \
     --train_sp_batch_size 2 \
     --dataloader_num_workers 4 \
     --gradient_accumulation_steps 12 \
-    --max_train_steps 601 \
+    --max_train_steps 181 \
     --learning_rate 3e-4 \
     --mixed_precision bf16 \
     --checkpointing_steps 10 \
